@@ -17,3 +17,4 @@
 2021-08-03 19:13:47.190 +09:00 [INF] Hosting environment: Development
 2021-08-03 19:13:47.190 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
 2021-08-03 19:13:47.224 +09:00 [INF] HOME - About 페이지가 로드되었습니다.
+2021-08-03 19:24:22.296 +09:00 [INF] Application is shutting down...

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNote", "DotNetNote\DotNetNote.csproj", "{F2C9E020-72E1-4535-885F-A0B4C312EAE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNote", "DotNetNote\DotNetNote.csproj", "{F2C9E020-72E1-4535-885F-A0B4C312EAE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNote.Models", "DotNetNote.Models\DotNetNote.Models.csproj", "{D15D1C25-BD70-4738-B178-5C7C84685F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNote.Models", "DotNetNote.Models\DotNetNote.Models.csproj", "{D15D1C25-BD70-4738-B178-5C7C84685F2D}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DotNetNote.SqlServer", "DotNetNote.SqlServer\DotNetNote.SqlServer.sqlproj", "{605590EA-36C8-4663-94DF-A84A3195C9D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNoteCore", "DotNetNoteCore\DotNetNoteCore.csproj", "{EDF9D339-7281-4152-8139-B63CFDC5A337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetNoteCore", "DotNetNoteCore\DotNetNoteCore.csproj", "{EDF9D339-7281-4152-8139-B63CFDC5A337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetSale", "DotNetSale\DotNetSale.csproj", "{9BF4D388-A2A4-4734-924A-69B0179CC60E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{EDF9D339-7281-4152-8139-B63CFDC5A337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF9D339-7281-4152-8139-B63CFDC5A337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF9D339-7281-4152-8139-B63CFDC5A337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF4D388-A2A4-4734-924A-69B0179CC60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF4D388-A2A4-4734-924A-69B0179CC60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF4D388-A2A4-4734-924A-69B0179CC60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF4D388-A2A4-4734-924A-69B0179CC60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
