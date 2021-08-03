@@ -1,0 +1,19 @@
+2021-08-03 19:10:49.471 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 19:10:49.487 +09:00 [INF] Hosting environment: Development
+2021-08-03 19:10:49.488 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 19:11:25.525 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 19:11:25.541 +09:00 [INF] Hosting environment: Development
+2021-08-03 19:11:25.542 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 19:11:25.584 +09:00 [INF] HOME - Index 페이지가 로드되었습니다.
+2021-08-03 19:11:27.976 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 19:11:27.991 +09:00 [INF] Hosting environment: Development
+2021-08-03 19:11:27.991 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 19:11:28.026 +09:00 [INF] HOME - Index 페이지가 로드되었습니다.
+2021-08-03 19:13:44.709 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 19:13:44.725 +09:00 [INF] Hosting environment: Development
+2021-08-03 19:13:44.726 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 19:13:44.760 +09:00 [INF] HOME - About 페이지가 로드되었습니다.
+2021-08-03 19:13:47.173 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 19:13:47.190 +09:00 [INF] Hosting environment: Development
+2021-08-03 19:13:47.190 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 19:13:47.224 +09:00 [INF] HOME - About 페이지가 로드되었습니다.
