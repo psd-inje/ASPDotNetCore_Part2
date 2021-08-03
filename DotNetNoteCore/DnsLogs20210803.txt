@@ -18,3 +18,27 @@
 2021-08-03 19:13:47.190 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
 2021-08-03 19:13:47.224 +09:00 [INF] HOME - About 페이지가 로드되었습니다.
 2021-08-03 19:24:22.296 +09:00 [INF] Application is shutting down...
+2021-08-03 22:45:32.241 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:45:32.258 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:45:32.258 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:46:14.007 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:46:14.023 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:46:14.023 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:49:02.043 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:49:02.059 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:49:02.060 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:49:11.996 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:49:12.012 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:49:12.013 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:49:46.970 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:49:46.986 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:49:46.986 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:49:53.434 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:49:53.450 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:49:53.451 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:52:30.060 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:52:30.075 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:52:30.076 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore
+2021-08-03 22:53:53.379 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:53:53.395 +09:00 [INF] Hosting environment: Development
+2021-08-03 22:53:53.395 +09:00 [INF] Content root path: C:\Users\psdin\source\repos\ASPDotNetCore_Part2\DotNetNoteCore

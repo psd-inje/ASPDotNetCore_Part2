@@ -1,0 +1,12 @@
+﻿@model List<Category>
+
+<h1>Demo/Category</h1>
+
+<ul>
+    @foreach (var c in Model)
+    {
+        <li>@c.CategoryId - @c.CategoryName</li>
+    }
+</ul>
+
+
