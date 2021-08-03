@@ -1,0 +1,13 @@
+﻿@*@model List<DemoModel>*@
+@model IEnumerable<DemoModel>
+
+<h1>ViewWithListOfDemo</h1>
+
+<h2>컬렉선 형태로 출력</h2>
+
+<ul>
+    @foreach (var m in @Model)
+    {
+           <li>@m.Id, @m.Name</li>
+    }
+</ul>
