@@ -27,7 +27,7 @@ namespace DotNetNote
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseRouting();
-            app.UseDeveloperExceptionPage();
+            //app.UseDeveloperExceptionPage();
 
             app.UseEndpoints(endpoints =>
             {

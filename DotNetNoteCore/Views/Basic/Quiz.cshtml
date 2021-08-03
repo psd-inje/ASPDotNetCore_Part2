@@ -1,0 +1,21 @@
+﻿<h1>Quiz</h1>
+
+넘어온 Id 값(ViewData -> ViewData)  : @ViewData["Id"]
+<br />
+넘어온 Id 값(ViewData -> ViewBag) : @ViewBag.Id;
+<br />
+<hr />
+넘어온 Page 값(ViewBag->ViewBag): @ViewBag.Page
+<br />
+넘어온 Page 값(ViewBag->ViewData): @ViewData["Page"]
+
+
+<hr />
+
+<form action="/Basic/Quiz" method="post">
+    <input type="text" name="answer" value="" />
+    <input type="submit" name="btnSave" value="전송" />
+
+</form>
+
+@ViewBag.Answer
