@@ -9,5 +9,11 @@ namespace DotNetNote.Controllers
             //return Content("Demo Pate");
             return View();
         }
+
+        public IActionResult RazorDemo()
+        {
+            //return Content("Demo Pate");
+            return View();
+        }
     }
 }
