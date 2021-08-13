@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DotNetSale.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +37,6 @@ namespace DotNetSale.Controllers
         }
         #endregion
 
-        /*
 
 
         //[3] 따라하기 3: MVC 헬퍼 메서드 사용하기
@@ -71,6 +71,7 @@ namespace DotNetSale.Controllers
         }
         #endregion
 
+        
 
 
         //[5] 따라하기 5: 모델 기반 유효성 검사 및 서버측 유효성 검사
@@ -107,7 +108,6 @@ namespace DotNetSale.Controllers
 
             return View();
         }
-
         public IActionResult Completed()
         {
             return View();
@@ -193,7 +193,6 @@ namespace DotNetSale.Controllers
             return View();
         }
 
-        */
 
     }
 }

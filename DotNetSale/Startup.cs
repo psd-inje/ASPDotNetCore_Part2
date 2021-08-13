@@ -41,7 +41,7 @@ namespace DotNetSale
 
             services.Configure<IdentityOptions>(options =>
             {
-                // https://docs.microsoft.com/ko-kr/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-5.0
+                //// https://docs.microsoft.com/ko-kr/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-5.0
                 // 암호설정
                 options.Password.RequiredLength = 6;                                // 암호는 최소 6자로
                 options.Password.RequireDigit = true;                               // 숫자 반드시 포함
