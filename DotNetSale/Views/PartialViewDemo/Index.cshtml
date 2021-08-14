@@ -1,0 +1,16 @@
+﻿<h2>부분 뷰 데모</h2>
+
+<h3>_AdvancedPaging</h3>
+@*@Html.Partial("_AdvancedPaging", new PagerBase { Url = "PartialViewDemo", PageCount = 3456 })*@
+@*@Html.Partial("_AdvancedPaging", ViewBag.PageModel as PagerBase)*@
+@await Html.PartialAsync("_AdvancedPaging", ViewBag.PageModel as PagerBase)
+
+
+<hr />
+<h3>_AdvancedPagingWithCss</h3>
+@await Html.PartialAsync("_AdvancedPagingWithCss", ViewBag.PageModel as PagerBase)
+
+<hr />
+<h3>_AdvancedPagingWithBootstrap</h3>
+@await Html.PartialAsync("_AdvancedPagingWithBootstrap", ViewBag.PageModel as PagerBase)
+
