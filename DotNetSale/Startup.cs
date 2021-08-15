@@ -63,8 +63,16 @@ namespace DotNetSale
             });
 
             services.AddTransient<ICategoryRepository, CategoryRepositoryInMemory>();
+            
             //services.AddSingleton<InfoService>();
             services.AddSingleton<IInfoService, InfoService>();
+
+            services.AddTransient<CopyrightService>();
+            services.AddTransient<ICopyrightService, CopyrightService>();
+            //services.AddSingleton<ICopyrightService, CopyrightService>();
+            //services.AddScoped<ICopyrightService, CopyrightService>();  // GetHashCode()
+
+            services.AddTransient<IVariableRepository, VariableRepositoryInMemory>();
 
         }
 

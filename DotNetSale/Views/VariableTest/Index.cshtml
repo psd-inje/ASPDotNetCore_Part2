@@ -1,0 +1,18 @@
+﻿<h2>/VariableTest/Index</h2>
+
+@await Html.PartialAsync("menu")
+
+
+@{
+    var variables = ViewBag.variables as List<Variable>;
+}}
+
+
+<hr />
+
+<ul>
+    @foreach (var v in variables)
+    {
+        <li> @v.Text - @v.Value </li>
+    }
+</ul>
