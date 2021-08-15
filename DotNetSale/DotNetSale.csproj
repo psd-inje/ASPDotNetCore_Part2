@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="Areas\Reports\Data\" />
     <Folder Include="Areas\Reports\Models\" />
+    <Folder Include="wwwroot\vendor\" />
   </ItemGroup>
 
 </Project>

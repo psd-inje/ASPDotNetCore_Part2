@@ -1,0 +1,23 @@
+﻿<h2>/CkEditor4Demo/Index</h2>
+
+@await Html.PartialAsync("menu")
+
+
+<form action="/CkEditor4Demo/Index"  method="post">
+    <h1>CKEditor 적용</h1>
+
+    <textarea id="editor" name="editor"></textarea>
+
+    <input type="submit"  name="btnSubmit" value="전송" />
+
+
+    <script src="~/vendor/ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+</form>
+
+
+<hr />
+
+@Html.Raw(ViewBag.EditorText) 
