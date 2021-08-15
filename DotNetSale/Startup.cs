@@ -39,7 +39,9 @@ namespace DotNetSale
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
             //services.AddDefaultIdentity<ApplicationUser>().AddDefaultUI(UIFramework.Bootstrap4).AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews(); // MVC + Web API 사용 가능
+            services.AddRazorPages();           // Razor Pages 사용 가능
+            services.AddServerSideBlazor();     // Blazor Server 사용 가능
 
 
             services.Configure<IdentityOptions>(options =>
@@ -109,7 +111,9 @@ namespace DotNetSale
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+             
+                endpoints.MapRazorPages();  // Razor Pages 사용 설정
+                endpoints.MapBlazorHub();   // Blazor Server 사용 설정
             });
         }
     }
