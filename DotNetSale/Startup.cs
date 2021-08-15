@@ -13,6 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DotNetNote.Models;
+using DotNetSale.Services;
 
 namespace DotNetSale
 {
@@ -39,6 +41,7 @@ namespace DotNetSale
 
             services.AddControllersWithViews();
 
+
             services.Configure<IdentityOptions>(options =>
             {
                 //// https://docs.microsoft.com/ko-kr/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-5.0
@@ -59,8 +62,9 @@ namespace DotNetSale
                 options.User.RequireUniqueEmail = true;                             // 이메일 중복 방지
             });
 
-
-
+            services.AddTransient<ICategoryRepository, CategoryRepositoryInMemory>();
+            //services.AddSingleton<InfoService>();
+            services.AddSingleton<IInfoService, InfoService>();
 
         }
 

@@ -2,7 +2,7 @@
 
 namespace DotNetNote.Models
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
         List<Category> GetAll();
     }
